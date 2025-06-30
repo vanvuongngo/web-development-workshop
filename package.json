@@ -1,8 +1,8 @@
 {
-  "name": "reveal.js",
-  "version": "5.2.1",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
+  "name": "Web development workshop 2025",
+  "version": "0.1.0",
+  "description": "Start learning Web Development",
+  "homepage": "https://vanvuongngo.github.io/web-development-workshop/",
   "subdomain": "revealjs",
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
@@ -13,49 +13,50 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Van Vuong Ngo",
+    "email": "20791239+vanvuongngo@users.noreply.github.com",
+    "web": "https://github.com/vanvuongngo"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "https://github.com/vanvuongngo/web-development-workshop"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "keywords": [
+    "web-development",
     "reveal",
     "slides",
     "presentation"
   ],
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "@babel/eslint-parser": "^7.22.15",
-    "@babel/preset-env": "^7.23.2",
+    "@babel/core": "^7.27.7",
+    "@babel/eslint-parser": "^7.27.5",
+    "@babel/preset-env": "^7.27.2",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
     "@rollup/plugin-terser": "^0.4.4",
     "babel-plugin-transform-html-import-to-string": "2.0.0",
     "colors": "^1.4.0",
-    "core-js": "^3.33.1",
-    "fitty": "^2.3.7",
-    "glob": "^10.3.10",
-    "gulp": "^5.0.0",
+    "core-js": "^3.43.0",
+    "fitty": "^2.4.2",
+    "glob": "^10.4.5",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-connect": "^5.7.0",
     "gulp-eslint": "^6.0.0",
     "gulp-header-comment": "^0.10.0",
     "gulp-zip": "^5.1.0",
-    "highlight.js": "^11.9.0",
+    "highlight.js": "^11.11.1",
     "marked": "^4.3.0",
-    "node-qunit-puppeteer": "^2.2.0",
+    "node-qunit-puppeteer": "^2.2.1",
+    "qunit": "^2.24.1",
+    "rollup": "^4.44.1",
+    "sass": "^1.89.2",
     "through2": "^4.0.2",
-    "qunit": "^2.22.0",
-    "rollup": "^4.1.5",
-    "sass": "^1.79.4",
     "yargs": "^17.7.2"
   },
   "overrides": {
