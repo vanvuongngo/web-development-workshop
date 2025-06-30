@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta charset="utf-8" />
+		<meta charset="utf-8" />
+
+		<!-- No cache for index.html -->
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -22,7 +27,7 @@
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 
 		<!-- fullscreen -->
-		<link rel="manifest" href="manifest.json" fetchpriority="low">
+		<link rel="manifest" href="manifest.json?v=1" fetchpriority="low">
   </head>
   <body>
     <div class="reveal">
