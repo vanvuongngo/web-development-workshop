@@ -25,12 +25,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading-letter-spacing: -0.03em;
   --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: normal;
+  --r-heading-font-weight: 180;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
-  --r-heading4-size: 1em;
+  --r-heading1-size: 8.77rem;
+  --r-heading2-size: 7.11rem;
+  --r-heading3-size: 2.55rem;
+  --r-heading4-size: 1rem;
   --r-code-font: monospace;
   --r-link-color: #e7ad52;
   --r-link-color-dark: rgb(225.2802030457, 153.4573604061, 40.7697969543);
@@ -39,6 +39,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-selection-color: #fff;
   --r-overlay-element-bg-color: 240, 240, 240;
   --r-overlay-element-fg-color: 0, 0, 0;
+  --ws-primary-background-color: rgb(70, 70, 255);
+  --ws-heading1-font-weight: 400;
+  --ws-highlight-font-color: rgb(255, 255, 0);
 }
 
 .reveal-viewport {

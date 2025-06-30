@@ -17,23 +17,23 @@ html * {
  *********************************************/
 :root {
   --r-background-color: #fdf6e3;
-  --r-main-font: Lato, sans-serif;
+  --r-main-font: system-ui, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #657b83;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: League Gothic, Impact, sans-serif;
+  --r-heading-font: system-ui, sans-serif;
   --r-heading-color: #586e75;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: normal;
+  --r-heading-font-weight: 180;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
-  --r-heading4-size: 1em;
+  --r-heading1-size: 8.77rem;
+  --r-heading2-size: 7.11rem;
+  --r-heading3-size: 2.55rem;
+  --r-heading4-size: 1rem;
   --r-code-font: monospace;
   --r-link-color: #268bd2;
   --r-link-color-dark: rgb(32.3, 118.15, 178.5);
@@ -42,6 +42,9 @@ html * {
   --r-selection-color: #fff;
   --r-overlay-element-bg-color: 0, 0, 0;
   --r-overlay-element-fg-color: 240, 240, 240;
+  --ws-primary-background-color: rgb(70, 70, 255);
+  --ws-heading1-font-weight: 400;
+  --ws-highlight-font-color: rgb(255, 255, 0);
 }
 
 .reveal-viewport {

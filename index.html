@@ -11,8 +11,10 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/workshop.css" />
     <!-- <link rel="stylesheet" href="dist/theme/black.css" /> -->
-    <link rel="stylesheet" href="dist/theme/white.css" />
+    <!-- <link rel="stylesheet" href="dist/theme/simple.css" /> -->
+    <link rel="stylesheet" href="dist/theme/workshop.css" />
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
@@ -20,10 +22,9 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-background-color="rgb(70, 70, 255)">
-          <h1>Web Entwicklung</h1>
-          <br />
-          Workshop 2025
+        <section data-background-color="var(--ws-primary-background-color)">
+          <h1 style="font-weight: var(--ws-heading1-font-weight);">Web Entwicklung</h1>
+          <p>Workshop 2025</p>
         </section>
 
 				<section>
@@ -32,89 +33,150 @@
             <h3>Van Vuong Ngo</h3>
             <p>
               Full Stack Entwickler mit mehr als 15 Jahren Erfahrung in der
-              Softwareentwicklung mit Fokus auf Frontend Entwicklung.
-              Zweifacher Familienvater.
+              Software-Entwicklung mit Fokus auf Frontend,
+              Open-Source Contributor und Familienvater
             </p>
           </section>
           <section>
-            Jobs<br />
+            <h2>Berufserfahrung</h2>
 						<ul>
 							<li>
-								<a href="https://www.sygnum.com" target="_blank">Sygnum Bank</a>, Zürich
+								Software Entwickler, <a href="https://www.sygnum.com" target="_blank">Sygnum Bank</a>, Zürich
 							</li>
 							<li>
-								<a href="https://www.jobs.ch" target="_blank"
-									>Job Cloud AG (jobs.ch)</a>
-								, Zürich
+								Senior Frontend Entwickler, <a href="https://www.jobs.ch" target="_blank"
+									>Job Cloud AG</a>, Zürich
 							</li>
 							<li>
-		            <a href="https://www.arvato.com" target="_blank">Arvato</a>, Düsseldorf (D)
+		            Anwendungsentwickler, <a href="https://www.arvato.com" target="_blank">Arvato</a>, Düsseldorf
 							</li>
 					<li>
-            <a href="https://www.eplan.de" target="_blank">EPLAN</a>, Monheim
-            am Rhein (D)
+            C++ Softwareentwickler, <a href="https://www.eplan.de" target="_blank">EPLAN</a>, Monheim
+            am Rhein
 					</li>
 				  </section>
           <section>
-            <h2 style="font-weight: 100;">Wie man mich finden kann ...</h2>
+            <h2>Wo findet man mich ...</h2>
 
 						<table>
 							<tbody>
 								<tr>
 									<td>
-										<h3 style="float: left">LinkedIn</h3>
+										<h3>LinkedIn</h3>
+									</td>
+									<td>
+										<a href="https://linkedin.com/in/vanvuong-ngo" target="_blank"
+											>linkedin.com/in/vanvuong-ngo</a>
+										<img
+											src="/linkedin_vanvuong_ngo.png"
+											alt="QR code zu linkedIn von Van Vuong Ngo"
+											height="120"
+											style="vertical-align:middle"
+										/>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<h3>GitHub</h3>
 									</td>
 									<td>
 										<img
-										src="/linkedin_vanvuong_ngo.png"
-										alt="QR code zu linkedIn von Van Vuong Ngo"
-										height="180"
-										style="vertical-align:middle"
-									/>
-									<a style="font-size: 1.4rem;" href="https://www.linkedin.com/in/vanvuong-ngo" target="_blank"
-										>https://www.linkedin.com/in/vanvuong-ngo</a>
+											src="/github_vanvuongngo.png"
+											alt="QR code zu github von Van Vuong Ngo"
+											height="120"
+											style="vertical-align:middle"
+										/>
+										<a href="https://github.com/vanvuongngo" target="_blank"
+											>github.com/vanvuongngo</a>
 									</td>
 								</tr>
+
 								<tr>
-									<td><h3 style="float: left">Github</h3></td>
-									<td><img
-										src="/github_vanvuongngo.png"
-										alt="QR code zu github von Van Vuong Ngo"
-										height="180"
-										style="vertical-align:middle"
-									/>
-									<a style="font-size: 1.4rem;" href="https://github.com/vanvuongngo" target="_blank"
-										>https://github.com/vanvuongngo</a
-									></td>
+									<td>
+										<h3>microcontroller</h3>
+									</td>
+									<td>
+										<a href="https://github.com/mcuw" target="_blank"
+											>github.com/mcuw</a>
+										<img
+											src="/github_mcuw.png"
+											alt="QR code zu github von mcuw"
+											height="120"
+											style="vertical-align:middle"
+										/>
+									</td>
 								</tr>
 							</tbody>
 						</table>
           </section>
         </section>
 
-        <section data-background-color="rgb(70, 70, 255)">
+				<!-- HTML-->
+        <section data-background-color="var(--ws-primary-background-color)">
           <section>
 						<h2>HTML für den Inhalt</h2>
+						<p><span style="color: var(--ws-highlight-font-color)">H</span>yper<span style="color: var(--ws-highlight-font-color)">T</span>ext <span style="color: var(--ws-highlight-font-color)">M</span>arkup <span style="color: var(--ws-highlight-font-color)">L</span>anguage</p>
 					</section>
           <section>...</section>
         </section>
-        <section data-background-color="rgb(70, 70, 255)">
-					<h2>CSS für die Gestalt</h2>
-				</section>
-        <section data-background-color="rgb(70, 70, 255)">
-					<h2>Javascript für das Verhalten</h2>
+
+				<!-- CSS -->
+        <section data-background-color="var(--ws-primary-background-color)">
+					<section>
+						<h2>
+							CSS für die Gestalt
+						</h2>
+						<p><span style="color: var(--ws-highlight-font-color)">C</span>ascading <span style="color: var(--ws-highlight-font-color)">S</span>tyle <span style="color: var(--ws-highlight-font-color)">S</span>heets</p>
+					</section>
+          <section>...</section>
 				</section>
 
-				<section data-background-color="rgb(70, 70, 255)">
-					<h2>SEO</h2>
+				<!-- JS -->
+        <section data-background-color="var(--ws-primary-background-color)">
+					<section>
+						<h2>JS für das Verhalten</h2>
+						<p><span style="color: var(--ws-highlight-font-color)">J</span>ava<span style="color: var(--ws-highlight-font-color)">s</span>cript</p>
+					</section>
+					<section>...</section>
 				</section>
 
-				<section data-background-color="rgb(70, 70, 255)">
+				<section data-background-color="var(--ws-primary-background-color)">
+					<section>
+						<h2>SEO</h2>
+						<p><span style="color: var(--ws-highlight-font-color)">S</span>earch <span style="color: var(--ws-highlight-font-color)">E</span>ngine <span style="color: var(--ws-highlight-font-color)">O</span>ptimization</p>
+					</section>
+					<section>... gefunden werden und Vorteil gegenüber Mitbewerber</section>
+				</section>
+
+				<section data-background-color="var(--ws-primary-background-color)">
+					<section>
 					<h2>Geschäftslogik</h2>
+						<p>hier spielt die Musik</p>
+					</section>
+					<section>...</section>
 				</section>
 
-				<section data-background-color="rgb(70, 70, 255)">
+				<section data-background-color="var(--ws-primary-background-color)">
+					<section>
+						<h2>Was als nächstes?</h2>
+						<p>Quellen und weitere Informationen</p>
+					</section>
+					<section>
+						<ul>
+							<li>https://www.w3schools.com/html/default.asp</li>
+							<li>https://www.w3schools.com/css/default.asp</li>
+							<li>https://www.w3schools.com/js/default.asp</li>
+							<p>selber Ausprobieren, z.B. eine github page erstellen als Portfolio</p>
+					</ul>
+					</section>
+				</section>
+
+				<section data-background-color="var(--ws-primary-background-color)">
+					<section>
 					<h2>Zusammenfassung</h2>
+					</section>
+					<section>technik (HTML, CSS, JS), Herausforderungen (SEO, Geschäftslogik), (message: Internet gewinnt extrem an Nutzen - Wissen was dahinter steht und jeder kann sich beteidigen)</section>
 				</section>
 			</div>
     </div>
